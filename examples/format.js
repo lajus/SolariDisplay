@@ -35,49 +35,49 @@ format =
 [ CTR.SOLARIVALUES.hour, ':', CTR.SOLARIVALUES.minute, ':', CTR.SOLARIVALUES.minute], [ 'T', ['E', 'G', 'H'], ['R', 'V', 'A'], CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number],
 [ CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter ],
 [ [ 'À', 'R', 'A'], [' ', 'E', 'N'], ['L', 'T', 'N'], ['\'', 'A', 'U'], ['H', 'R', 'L'], ['E', 'D', 'É'], ['U', 'É', ' '],
-['R', ' '], ['E', ' '] , ' ' ], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
+['R', ' '], ['E', ' ']], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
 ],
 [
 [ CTR.SOLARIVALUES.hour, ':', CTR.SOLARIVALUES.minute, ':', CTR.SOLARIVALUES.minute], [ 'T', ['E', 'G', 'H'], ['R', 'V', 'A'], CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number],
 [ CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter ],
 [ [ 'À', 'R', 'A'], [' ', 'E', 'N'], ['L', 'T', 'N'], ['\'', 'A', 'U'], ['H', 'R', 'L'], ['E', 'D', 'É'], ['U', 'É', ' '],
-['R', ' '], ['E', ' '] , ' ' ], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
+['R', ' '], ['E', ' ']], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
 ],
 [
 [ CTR.SOLARIVALUES.hour, ':', CTR.SOLARIVALUES.minute, ':', CTR.SOLARIVALUES.minute], [ 'T', ['E', 'G', 'H'], ['R', 'V', 'A'], CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number],
 [ CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter ],
 [ [ 'À', 'R', 'A'], [' ', 'E', 'N'], ['L', 'T', 'N'], ['\'', 'A', 'U'], ['H', 'R', 'L'], ['E', 'D', 'É'], ['U', 'É', ' '],
-['R', ' '], ['E', ' '] , ' ' ], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
+['R', ' '], ['E', ' ']], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
 ],
 [
 [ CTR.SOLARIVALUES.hour, ':', CTR.SOLARIVALUES.minute, ':', CTR.SOLARIVALUES.minute], [ 'T', ['E', 'G', 'H'], ['R', 'V', 'A'], CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number],
 [ CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter ],
 [ [ 'À', 'R', 'A'], [' ', 'E', 'N'], ['L', 'T', 'N'], ['\'', 'A', 'U'], ['H', 'R', 'L'], ['E', 'D', 'É'], ['U', 'É', ' '],
-['R', ' '], ['E', ' '] , ' ' ], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
+['R', ' '], ['E', ' ']], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
 ],
 [
 [ CTR.SOLARIVALUES.hour, ':', CTR.SOLARIVALUES.minute, ':', CTR.SOLARIVALUES.minute], [ 'T', ['E', 'G', 'H'], ['R', 'V', 'A'], CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number],
 [ CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter ],
 [ [ 'À', 'R', 'A'], [' ', 'E', 'N'], ['L', 'T', 'N'], ['\'', 'A', 'U'], ['H', 'R', 'L'], ['E', 'D', 'É'], ['U', 'É', ' '],
-['R', ' '], ['E', ' '] , ' ' ], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
+['R', ' '], ['E', ' ']], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
 ],
 [
 [ CTR.SOLARIVALUES.hour, ':', CTR.SOLARIVALUES.minute, ':', CTR.SOLARIVALUES.minute], [ 'T', ['E', 'G', 'H'], ['R', 'V', 'A'], CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number],
 [ CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter ],
 [ [ 'À', 'R', 'A'], [' ', 'E', 'N'], ['L', 'T', 'N'], ['\'', 'A', 'U'], ['H', 'R', 'L'], ['E', 'D', 'É'], ['U', 'É', ' '],
-['R', ' '], ['E', ' '] , ' ' ], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
+['R', ' '], ['E', ' ']], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
 ],
 [
 [ CTR.SOLARIVALUES.hour, ':', CTR.SOLARIVALUES.minute, ':', CTR.SOLARIVALUES.minute], [ 'T', ['E', 'G', 'H'], ['R', 'V', 'A'], CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number],
 [ CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter ],
 [ [ 'À', 'R', 'A'], [' ', 'E', 'N'], ['L', 'T', 'N'], ['\'', 'A', 'U'], ['H', 'R', 'L'], ['E', 'D', 'É'], ['U', 'É', ' '],
-['R', ' '], ['E', ' '] , ' ' ], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
+['R', ' '], ['E', ' ']], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
 ],
 [
 [ CTR.SOLARIVALUES.hour, ':', CTR.SOLARIVALUES.minute, ':', CTR.SOLARIVALUES.minute], [ 'T', ['E', 'G', 'H'], ['R', 'V', 'A'], CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number, CTR.SOLARIVALUES.number],
 [ CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter, CTR.SOLARIVALUES.eletter ],
 [ [ 'À', 'R', 'A'], [' ', 'E', 'N'], ['L', 'T', 'N'], ['\'', 'A', 'U'], ['H', 'R', 'L'], ['E', 'D', 'É'], ['U', 'É', ' '],
-['R', ' '], ['E', ' '] , ' ' ], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
+['R', ' '], ['E', ' ']], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
 ]
 ];
 s

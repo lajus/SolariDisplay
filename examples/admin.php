@@ -16,7 +16,7 @@ function dumpall($data, $cid) {
 	foreach($data as $id => $arr) {
 		$tmp[$i] = $arr;
 		$i++;
-		if ($i > 12) break;
+		if ($i > 8) break;
 	}
 	$tmp = json_encode($tmp);
 	if ($tmp and $f = fopen("toshow", "w")) {
