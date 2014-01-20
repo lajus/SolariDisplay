@@ -19,7 +19,7 @@ CTR.SolariSegment = function( settings ) {
 
 	function _init() {
 
-		_li = document.createElement( 'li' );
+		_li = document.createElement( 'td' );
 		_li.className = 'segment';
 		_li.style.width = _settings.width + 'px';
 		_li.style.height = _settings.height + 'px';
@@ -153,8 +153,7 @@ CTR.SolariBoard = function( settings ) {
 
 	var
 		_settings = settings,
-		_display = document.createElement( 'div' ),
-		_segments = document.createElement( 'ul' ),
+		_segments = document.createElement( 'tr' ),
 		_segmentArray = []
 	;
 
@@ -183,40 +182,40 @@ CTR.SolariBoard = function( settings ) {
 
 	function _init() {
 
-		_display.className = 'display';
+		//_display.className = 'display';
 		_segments.className = 'segments';
-		_display.style.fontSize = _settings.fontSize + 'px';
+		//_display.style.fontSize = _settings.fontSize + 'px';
 
-		var w = 0;
+		var _w = 0;
 		for( var j = 0; j < _settings.format.length; j++ ) {
 			_addSegment( _settings.format[ j ] );
-			w += _settings.format[ j ][ 0 ].length * _settings.segmentWidth;
+			_w += _settings.format[ j ][ 0 ].length * _settings.segmentWidth;
 		}
 
 		for( var j = 0; j < _segmentArray.length; j++ ) {
 			if( j < _segmentArray.length - 1 ) {
 				_segmentArray[ j ].getElement().style.marginRight = '4px';
-				w += 4;
+				_w += 4;
 			}
 		}
-		_segments.style.width = w + 60 + 'px';
+		_segments.style.width = _w + 60 + 'px';
 		_segments.style.height = _settings.segmentHeight + 60 + 'px';
-		_display.style.width = w + 'px';
-		_display.style.height = _settings.segmentHeight + 'px';
-		_display.style.marginLeft = - .5 * ( w + 60 ) + 'px';
-		_display.style.marginTop = - .5 * _settings.segmentHeight + 'px';
-		_display.style.webkitPerspectiveOrigin = _display.style.MozPerspectiveOrigin = ( .5 * w ) +'px ' + _settings.segmentHeight + 'px';  
-		_display.style.webkitTransformOrigin = _display.style.MozTransformOrigin = ( .5 * w ) +'px ' + _settings.segmentHeight + 'px';  
+		//_display.style.width = w + 'px';
+		//_display.style.height = _settings.segmentHeight + 'px';
+		//_display.style.marginLeft = - .5 * ( w + 60 ) + 'px';
+		//_display.style.marginTop = - .5 * _settings.segmentHeight + 'px';
+		//_display.style.webkitPerspectiveOrigin = _display.style.MozPerspectiveOrigin = ( .5 * w ) +'px ' + _settings.segmentHeight + 'px';  
+		//_display.style.webkitTransformOrigin = _display.style.MozTransformOrigin = ( .5 * w ) +'px ' + _settings.segmentHeight + 'px';  
 
-		_display.appendChild( _segments );
-		_settings.container.appendChild( _display );
+		//_display.appendChild( _segments );
+		//_settings.container.appendChild( _display );
 
 		_update();
 	}
 
 	function _update() {
 
-		window.requestAnimationFrame( _update );
+		//window.requestAnimationFrame( _update );
 		for( var j = 0; j < _segmentArray.length; j++ ) {
 			_segmentArray[ j ].update();
 		}
@@ -228,6 +227,77 @@ CTR.SolariBoard = function( settings ) {
 	return {
 
 		getDisplay: function() { return _segments; },
+		setContent: _setContent,
+		w: _w
+		
+	}
+
+}
+
+CTR.SolariTable = function( settings ) {
+
+	var
+		_settings = settings,
+		_display = document.createElement( 'div' ),
+		_table = document.createElement('table'),
+		_tableArray = []
+	;
+
+	function _setContent( i, v ) {
+			tableArray[i].setContent(v);
+		}
+	}
+
+	function _addBoard( nsettings ) {
+
+		var board = new CTR.SolariBoard( nsettings );
+		_tableArray.push( board );
+		_table.appendChild( board.getDisplay() );
+		
+		return( board.w );
+	}
+
+	function _init() {
+	
+		_display.className = 'display';
+		_display.style.fontSize = _settings.fontSize + 'px';
+		var w = 0;
+		
+		for( var j = 0; j < _settings.format.length; j++ ) {
+			var nsettings = _settings;
+			nsettings.format = _settings.format[ j ]
+			w = max(w, _addBoard( nsettings ));
+		}
+		
+		var h = _settings.format.length() * _settings.segmentHeight;
+		
+		_display.style.width = w + 'px';
+		_display.style.height = h + 'px';
+		_display.style.marginLeft = - .5 * ( w + 60 ) + 'px';
+		_display.style.marginTop = - .5 * h + 'px';
+		_display.style.webkitPerspectiveOrigin = _display.style.MozPerspectiveOrigin = ( .5 * w ) +'px ' + (.5 * h) + 'px';  
+		_display.style.webkitTransformOrigin = _display.style.MozTransformOrigin = ( .5 * w ) +'px ' + (.5 * h) + 'px';  
+		
+		_display.appendChild( _table );
+		_settings.container.appendChild( _display );
+
+		_update();
+	}
+
+	function _update() {
+
+		window.requestAnimationFrame( _update );
+		for( var j = 0; j < _tableArray.length; j++ ) {
+			_tableArray[ j ].update();
+		}
+
+	}
+
+	_init();
+
+	return {
+
+		getDisplay: function() { return _table; },
 		setContent: _setContent
 
 	}
