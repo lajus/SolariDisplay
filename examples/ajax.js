@@ -30,7 +30,8 @@ function update() {
 					min = (tmp < 10 ? '0' : '') + tmp
 				}
 				var statut = (tmp[i].statut.charAt(0) == 'A') ? 'À L\'HEURE' : ((tmp[i].statut.charAt(0) == 'R') ? 'RETARDÉ' : 'ANNULÉ');
-				display.setContent(i, [ time, [rep[i].type, rep[i].num], dest, [statut, min, rep[i].unit], dest ]);
+				console.debug([time, dest, statut, min]);
+				display.setContent(i, [ time, [rep[i].type, rep[i].num], dest, [statut, min, rep[i].unit], rep[i].unit ]);
 			}
 			setTimeout(update, 2000);
         } else if (xhr.readyState == 4) {
