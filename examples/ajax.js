@@ -44,5 +44,3 @@ function update() {
     xhr.open("GET", "http://perso.crans.org/lajus/SolariDisplay/examples/update.php", true);
     xhr.send();
 }
-
-update();
