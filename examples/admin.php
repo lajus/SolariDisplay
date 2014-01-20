@@ -16,7 +16,7 @@ function dumpall($data, $cid) {
 	foreach($data as $id => $arr) {
 		$tmp[$i] = $arr;
 		$i++;
-		if ($i == 12) break;
+		if ($i > 12) break;
 	}
 	$tmp = json_encode($tmp);
 	if ($tmp and $f = fopen("toshow", "w")) {
@@ -72,7 +72,7 @@ if (isset($_GET["modify"]) and isset($_GET["id"]) and array_key_exists($_GET["id
 			<option value="A L'HEURE" <?php if ($data[$id]["statut"] == "A L'HEURE") echo "selected"; ?>>A L'HEURE</option>
 			<option value="RETARD" <?php if ($data[$id]["statut"] == "RETARD") echo "selected"; ?>>RETARD</option>
 			<option value="ANNULE" <?php if ($data[$id]["statut"] == "ANNULE") echo "selected"; ?>>ANNULE</option></select></td>
-<td><input name="min" value="<?= $data[$id]["min"] ?>" maxlength="2"></td>
+<td><input name="min" value="<?= $data[$id]["min"] ?>"></td>
 <td><select name="unit">
 			<option value="   " <?php if ($data[$id]["unit"] == "   ") echo "selected"; ?>></option>
 			<option value="SEC" <?php if ($data[$id]["unit"] == "SEC") echo "selected"; ?>>Secondes</option>
@@ -110,7 +110,7 @@ if (isset($_GET["modify"]) and isset($_GET["id"]) and array_key_exists($_GET["id
 			<option value="A L'HEURE" selected>A L'HEURE</option>
 			<option value="RETARD">RETARD</option>
 			<option value="ANNULE">ANNULE</option></select></td>
-<td><input name="min" value="  " maxlength="2"></td>
+<td><input name="min" value="  "></td>
 <td><select name="unit">
 			<option value="   " selected></option>
 			<option value="SEC">Secondes</option>
@@ -119,7 +119,7 @@ if (isset($_GET["modify"]) and isset($_GET["id"]) and array_key_exists($_GET["id
 			<option value="ANS">Ans</option>
 			<option value="SIE">Siecles</option>
 			<option value="INF">Infini</option></select></td>
-<td><input name="voie" value="1" maxlength="1" type="number"></td>
+<td><input name="voie" value="0" maxlength="1" type="number"></td>
 <td><input type="submit" value="+">
 </tr>
 </table>
