@@ -31,6 +31,8 @@ var
 window.addEventListener( 'load', function() {
 
 	container = document.querySelector( '#container' );
+	
+	/* 
 
 	window.addEventListener( 'mousemove', function( e ) {
 
@@ -52,7 +54,7 @@ window.addEventListener( 'load', function() {
 		container.style.webkitTransform = container.style.MozTransform = 'rotateY( ' + x + 'deg) rotateX( ' + y + 'deg)';
 		e.preventDefault();
 
-	} );
+	} ); */
 
 }, false );
 
