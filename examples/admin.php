@@ -57,6 +57,7 @@ if (isset($_GET["modify"]) and isset($_GET["id"]) and array_key_exists($_GET["id
 	$id = $_GET["id"];
 ?>
 <form action="admin.php" method="get">
+<input type="hidden" name="id" value="<?= $id ?>">
 <table>
 <tr><th>Heure</th><th>tdain</th><th>num</th><th>Destination</th><th>Statut</th><th></th><th></th><th>Voie</th><th>Action</th></tr>
 <tr><td>Auto</td>
