@@ -18,8 +18,8 @@ function update() {
         if (xhr.readyState == 4 && xhr.status == 200) {
             var rep = JSON.parse(xhr.responseText);
 			console.debug(rep);
-			console.debug(i);
-			for (var i = 1; i <= 1; i++) {
+			for (var i = 1; i <= 12; i++) {
+				if (typeof rep[i] === "undefined") break;
 				console.debug('plop');
 				var time = [rep[i].time.substr(0,2), ':',  rep[i].time.substr(3,2), ':', rep[i].time.substr(6,2)];
 				var dest = ""

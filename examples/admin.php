@@ -114,7 +114,7 @@ if (isset($_GET["modify"]) and isset($_GET["id"]) and array_key_exists($_GET["id
 <td><select name="unit">
 			<option value="   " selected></option>
 			<option value="SEC">Secondes</option>
-			<option value="MIN" selected>Minutes</option>
+			<option value="MIN">Minutes</option>
 			<option value="HRS">Heures</option>
 			<option value="ANS">Ans</option>
 			<option value="SIE">Siecles</option>
