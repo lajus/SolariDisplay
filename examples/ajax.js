@@ -18,9 +18,9 @@ function update() {
         if (xhr.readyState == 4 && xhr.status == 200) {
             var rep = JSON.parse(xhr.responseText);
 			console.debug(rep);
-			console.debug(rep[1]);
+			console.debug(i);
 			for (var i = 1; i <= 1; i++) {
-				console.log('plop');
+				console.debug('plop');
 				var time = [rep[i].time.substr(0,2), ':',  rep[i].time.substr(3,2), ':', rep[i].time.substr(6,2)];
 				var dest = ""
 				for(var j = 0; j < rep[i].dest.length; j++) {
