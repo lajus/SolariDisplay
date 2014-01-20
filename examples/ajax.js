@@ -31,7 +31,7 @@ function update() {
 					var tmp = Math.floor(parseInt(rep[i].min) / 5) * 5;
 					min = (tmp < 10 ? '0' : '') + tmp
 				}
-				var statut = (tmp[i].statut.charAt(0) == 'A') ? 'À L\'HEURE' : ((tmp[i].statut.charAt(0) == 'R') ? 'RETARDÉ' : 'ANNULÉ');
+				var statut = (rep[i].statut.charAt(0) == 'A') ? 'À L\'HEURE' : ((rep[i].statut.charAt(0) == 'R') ? 'RETARDÉ' : 'ANNULÉ');
 				console.debug([time, dest, statut, min]);
 				display.setContent(i, [ time, [rep[i].type, rep[i].num], dest, [statut, min, rep[i].unit], rep[i].unit ]);
 			}
