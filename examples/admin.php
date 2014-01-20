@@ -1,7 +1,7 @@
 <?php
 
 if(!isset($_SESSION["data"]) or !isset($_SESSION["cid"])) {
-	echo "First <br/>"
+	session_start();
 	$_SESSION["data"] = array();
 	$_SESSION["cid"] = 0;
 }
