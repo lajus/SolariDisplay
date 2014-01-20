@@ -33,7 +33,9 @@ function update() {
 				}
 				var statut = (rep[i].statut.charAt(0) == 'A') ? 'À L\'HEURE' : ((rep[i].statut.charAt(0) == 'R') ? 'RETARDÉ' : 'ANNULÉ');
 				console.debug([time, dest, statut, min]);
-				display.setContent(i, [ time, [rep[i].type, rep[i].num], dest, [statut, min, rep[i].unit], rep[i].unit ]);
+				var num = parseInt(rep[i].num);
+				num = (( num < 10 ) ? '0000' : ( num < 100 ) ? '000' : ( num < 1000 ) ? '00' : ( num < 10000 ) ? '0' : '' ) + num;
+				display.setContent(i, [ time, rep[i].type + num, dest, [statut, min, rep[i].unit], rep[i].unit ]);
 			}
 			setTimeout(update, 2000);
         } else if (xhr.readyState == 4) {
