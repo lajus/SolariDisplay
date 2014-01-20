@@ -19,7 +19,7 @@ function update() {
             var rep = JSON.parse(xhr.responseText);
 			console.debug(rep);
 			console.debug(rep[1]);
-			for (var i = 1; i <= rep.length; i++) {
+			for (var i = 1; i <= 1; i++) {
 				console.log('plop');
 				var time = [rep[i].time.substr(0,2), ':',  rep[i].time.substr(3,2), ':', rep[i].time.substr(6,2)];
 				var dest = ""
