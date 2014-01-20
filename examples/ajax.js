@@ -37,7 +37,7 @@ function update() {
 		}
     }
 
-    xhr.open("GET", "update.php", true);
+    xhr.open("GET", "http://perso.crans.org/lajus/SolariDisplay/examples/update.php", true);
     xhr.send();
 }
 
