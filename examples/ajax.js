@@ -31,7 +31,7 @@ function update() {
 					var tmp = Math.floor(parseInt(rep[i].min) / 5) * 5;
 					min = (tmp < 10 ? '0' : '') + tmp
 				}
-				var statut = (rep[i].statut.charAt(0) == 'A') ? 'À L\'HEURE' : ((rep[i].statut.charAt(0) == 'R') ? 'RETARDÉ  ' : 'ANNULÉ   ');
+				var statut = (rep[i].statut.charAt(0) == 'A') ? ((rep[i].statut.charAt(1) == ' ') ? 'À L\'HEURE' : 'ANNULÉ   ') : 'RETARDÉ  ';
 				//console.debug([time, dest, statut, min]);
 				var num = parseInt(rep[i].num);
 				num = (( num < 10 ) ? '0000' : ( num < 100 ) ? '000' : ( num < 1000 ) ? '00' : ( num < 10000 ) ? '0' : '' ) + num;
