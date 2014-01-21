@@ -29,7 +29,7 @@ function update() {
 				}
 				var min = '  ';
 				if (rep[i].min !== '  ') {
-					var tmp = Math.floor(parseInt(rep[i].min) / 5) * 5;
+					var tmp = Math.floor(parseInt(rep[i].min) / 5) * 5 % 100;
 					min = (tmp < 10 ? '0' : '') + tmp
 				}
 				var statut = (rep[i].statut.charAt(0) == 'A') ? ((rep[i].statut.charAt(1) == ' ') ? 'À L\'HEURE' : 'ANNULÉ   ') : 'RETARDÉ  ';
