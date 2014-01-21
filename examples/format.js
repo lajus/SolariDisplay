@@ -80,4 +80,3 @@ format =
 ['R', ' '], ['E', ' ']], [CTR.SOLARIVALUES.n5], [ [ ' ', 'S', 'M', 'H', 'J', 'A', 'S', 'I'], [' ', 'I', 'E', 'R', 'N'], [' ', 'N', 'C', 'S', 'E', 'F'] ], [[' '] + CTR.SOLARIVALUES.number]
 ]
 ];
-s
