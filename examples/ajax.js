@@ -22,6 +22,7 @@ function update() {
 				if (typeof rep[i] === "undefined") break;
 				//console.debug('plop');
 				var time = [rep[i].time.substr(0,2), ':',  rep[i].time.substr(3,2), ':', rep[i].time.substr(6,2)];
+				rep[i].dest = rep[i].dest.toUpperCase();
 				var dest = ""
 				for(var j = 0; j < rep[i].dest.length; j++) {
 					dest += (CTR.SOLARIVALUES.eletter.indexOf(rep[i].dest.charAt(j)) !== -1) ? rep[i].dest.charAt(j) : '?';
