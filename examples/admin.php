@@ -65,7 +65,7 @@ if (isset($_GET["modify"]) and isset($_GET["id"]) and array_key_exists($_GET["id
 <td><select name="type">
 			<option value="THA" <?php if ($data[$id]["type"] == "TGV") echo "selected"; ?>>Thalys</option>
 			<option value="TER" <?php if ($data[$id]["type"] == "TGV") echo "selected"; ?>>TER</option>
-			<option value="TGV" <?php if ($data[$id]["type"] == "TGV") echo "selected"; ?>>TGV></option></select></td>
+			<option value="TGV" <?php if ($data[$id]["type"] == "TGV") echo "selected"; ?>>TGV</option></select></td>
 <td><input name="num" value="<?= $data[$id]["num"] ?>" maxlength="5"/></td>
 <td><input name="dest" value="<?= $data[$id]["dest"] ?>" maxlength="21"></td>
 <td><select name="statut">
