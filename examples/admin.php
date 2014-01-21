@@ -119,7 +119,7 @@ if (isset($_GET["modify"]) and isset($_GET["id"]) and array_key_exists($_GET["id
 			<option value="ANS">Ans</option>
 			<option value="SIE">Siecles</option>
 			<option value="INF">Infini</option></select></td>
-<td><input name="voie" value="0" maxlength="1" type="number"></td>
+<td><input name="voie" value="-1" maxlength="1" type="number"></td>
 <td><input type="submit" value="+">
 </tr>
 </table>
