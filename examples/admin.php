@@ -36,7 +36,7 @@ if (isset($_GET["type"])) {
 	$arr["num"] = $_GET["num"];
 	$arr["dest"] = $_GET["dest"];
 	$arr["statut"] = $_GET["statut"];
-	$arr["min"] = $_GET["min"];
+	$arr["min"] = ($_GET["min"]) ? $_GET["min"] : '  ';
 	$arr["unit"] = $_GET["unit"];
 	$arr["voie"] = $_GET["voie"];
 	if (isset($_GET["id"])) {				// modification
@@ -95,7 +95,7 @@ if (isset($_GET["modify"]) and isset($_GET["id"]) and array_key_exists($_GET["id
 	foreach ($data as $id => $arr) {
 ?>
 <tr><td><?= $arr["time"] ?></td><td><?= $arr["type"] ?></td><td><?= $arr["num"] ?></td><td><?= $arr["dest"] ?></td><td><?= $arr["statut"] ?></td>
-<td><?= $arr["min"] ?></td><td><?= $arr["unit"] ?></td><td><?= $arr["voie"] ?></td><td><a href="?modify=t&id=<?= $id ?>">M</a><a href="?delete=t&id=<?= $id ?>">M</a></td></tr>
+<td><?= $arr["min"] ?></td><td><?= $arr["unit"] ?></td><td><?= $arr["voie"] ?></td><td><a href="?modify=t&id=<?= $id ?>">Modifier </a><a href="?delete=t&id=<?= $id ?>">Supprimer</a></td></tr>
 <?php
 }
 ?>
